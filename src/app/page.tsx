@@ -2,7 +2,7 @@ import HomeComponent from "../components/HomeComponent";
 
 const APP_ID = process.env.APP_ID;
 
-async function fetchWeatherData(city) {
+async function fetchWeatherData(city: any) {
   try {
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APP_ID}&units=metric`

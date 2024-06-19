@@ -9,7 +9,6 @@ const SearchInput = ({
   options,
   clearInput,
 }) => {
-
   return (
     <>
       <form onSubmit={handleSearch}>
